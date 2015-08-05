@@ -259,46 +259,10 @@ figure
     position: relative;
 
     overflow: hidden;
-
 }
 
 
-figcaption
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
 
-    position: absolute;
-    z-index: 888;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: inherit;
-    padding-top: 140px;
-
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    opacity: 0;
-    color: white;
-    border: 20px solid #352d2f;
-    background-color: #f63c3c;
-}
-
-
-figcaption:hover
-{
-    opacity: 1;
-}
-
-figcaption p
-{
-    font-size: 18px;
-
-    margin-top: 30px;
-}
 
 .work
 {
@@ -317,9 +281,11 @@ figcaption p
 .work p
 {
     margin-bottom: 30px;
-    padding: 15px 50px;
+    padding: 15px 65px;
 
     text-align: center;
+
+    color: #555;
 }
 
 
@@ -380,13 +346,9 @@ section.contact p
 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+
     margin-bottom: 60px;
 }
-
-
-
-
-
 
 
 .social li
@@ -437,15 +399,16 @@ footer p
         width: 95%;
         margin: 0 auto;
     }
-section.cta
-{
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    section.cta
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
-section.contact{
+    section.contact
+    {
         padding-bottom: 265px;
-}
+    }
 
     .social li
     {
@@ -462,6 +425,4 @@ section.contact{
     {
         margin-right: 0;
     }
-
-
 }
